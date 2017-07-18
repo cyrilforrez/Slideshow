@@ -1,5 +1,8 @@
-* {
-    box-sizing: border-box
+
+
+body {
+    margin: 0;
+    padding: 0;
 }
 
 .backgroundimg {
@@ -19,6 +22,7 @@
     max-width: 200px;
     position: relative;
     margin: auto;
+    margin-top: 20%; 
 }
 
 .mySlides {
