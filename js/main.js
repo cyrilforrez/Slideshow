@@ -5,7 +5,7 @@ cont = 0;
 
 function nextimg() {
     if (cont >= 2) {
-        cont = -1;
+        cont = img.length - 4;
     }
     cont++;
     monImage.src = img[cont];
@@ -13,7 +13,7 @@ function nextimg() {
 
 function previmg() {
     if (cont <= 0) {
-        cont = +3;
+        cont = img.length;
     }
     cont--;
     monImage.src = img[cont];
